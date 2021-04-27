@@ -9,7 +9,7 @@ int main()
     cout << "Value of a : " << a << endl;
     cout << "Value of b : " << b << endl;
     /*Swapping*/
-    temp = a;
+    temp = a; /*Swap code*/
     a = b;
     b = temp;
     cout << "******* Values after Swapping: *********" << endl;
