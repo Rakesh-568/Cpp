@@ -19,7 +19,7 @@ int main()
 /*Output:
 Enter the year: 2400
 Leap Year
-**********************
+*****************************
 Enter the year: 2011
 Not a Leap Year
 */
