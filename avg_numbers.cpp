@@ -3,13 +3,14 @@
 using namespace std;
 int main()
 {
-    int number, a = 0;
-    cout << "Enter 10 numbers" << endl;
-    for (int i = 1; i <= 5; i++)
+    int sum = 0;
+    for (int i = 0; i < 10; i++)
     {
-        cin >> number;
-        a = a + number;
+        int x;
+        cout << "Enter a number\n";
+        cin >> x;
+        sum = sum + x;
     }
-    cout << a;
+    cout << "The average value is " << sum / 10.0 << "\n";
     return 0;
 }
