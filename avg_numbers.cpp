@@ -7,10 +7,10 @@ int main()
     for (int i = 0; i < 10; i++)
     {
         int x;
-        cout << "Enter a number\n";
+        cout << "Enter a number" << endl;
         cin >> x;
         sum = sum + x;
     }
-    cout << "The average value is " << sum / 10.0 << "\n";
+    cout << "The average value is " << sum / 10.0 << endl;
     return 0;
 }
